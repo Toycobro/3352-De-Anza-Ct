@@ -1,0 +1,296 @@
+:root {
+  --dark-gold: #8e793e;
+  --light-gold: #ad974f;
+  --gray:#1d1a1a;
+  --white: #eaeaea;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+  font-size: 16px;
+}
+
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.3;
+  background-color: white;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 10px 20px 10px;
+  color: #eaeaea;
+  height: auto;
+  background-color: var(--gray);
+  font-weight: 300;
+}
+
+.header span {
+  color: var(--light-gold);
+}
+
+.title span {
+  color: var(--light-gold);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.address {
+  font-size: 24px;
+  color: var(--light-gold);
+  padding-bottom: 20px;
+}
+
+.desc {
+  font-weight: 600;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  background: green;
+  border-radius: 100px;
+  margin-left: 140px;
+  margin-bottom: -6px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.house {
+  height: 200px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px 20px 0px 20px;
+}
+
+.card h3 {
+  color: var(--dark-gold);
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.info {
+  text-align: left;
+  font-weight: 300;
+  max-width: 250px;
+}
+
+.text {
+  line-height: 1.4;
+  padding-bottom: 10px;
+}
+
+.info .text .money {
+  background: rgba(50, 205, 50, 0.719);
+}
+
+.info span {
+  padding: 2px;
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.small {
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.house {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(../img/DE-ANZA.jpeg) no-repeat center;
+  background-size: contain;
+  height: 300px;
+}
+
+.about {
+  font-size: 18px;
+  margin: 20px 100px;
+  line-height: 2;
+}
+
+.link {
+  text-align: center;
+  max-width: 100%;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.link p {
+  padding-bottom: 40px;
+  font-size: 24px;
+}
+
+.link span {
+  font-size: 20px;
+  background: var(--light-gold);
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 3px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+a:hover {
+  color: white;
+}
+
+.comps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+}
+
+.comps-list {
+  margin: 0px 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+}
+
+.comps-head {
+  color: var(--light-gold);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.comps-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comps-flex img {
+  max-width: 95%;
+  height: auto;
+  display: inline;
+  float: left;
+  margin-top: 10px;
+}
+
+.comps-flex p {
+  max-width: 50px;
+}
+
+@media (max-width: 865px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 185px;
+  }
+  .title span {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .address {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .desc {
+    font-size: 14px;
+  }
+  .dot {
+    margin-right: 10px;
+  }
+  .about {
+    margin: 10px 20px;
+    text-align: center;
+  }
+  .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 0;
+  }
+  .info {
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 100%;
+  }
+  .link p {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
